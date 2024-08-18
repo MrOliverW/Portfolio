@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <title>Oliver Warlick</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/forms.css">
+ </head>
+ <body>
+     <header>
+     <h1>Oliver Warlick</h1>
+        <nav class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="https://mroliverw.github.io/daily-grind/" target="_blank">Daily Grind Project</a>
+            <a href="https://mroliverw.github.io/form-processing/" target="_blank">Form Processing Project</a>
+            <a href="https://mroliverw.github.io/dom-manipulation/" target="_blank">DOM Manipulation Project</a>
+            <a href="https://mroliverw.github.io/creatures/" target="_blank">Creatures Project</a>
+            <a href="https://mroliverw.github.io/time-of-day/" target="_blank">Time of Day Project</a>
+            <a href="https://mroliverw.github.io/Positioning/" target="_blank">Positioning  Project</a>
+            <a href="https://mroliverw.github.io/selectors/" target="_blank">Selectors Project</a>
+            <a href="https://mroliverw.github.io/explore-oregon/" target="_blank">Explore Oregon Project</a>
+            <a href="https://github.com/MrOliverW" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/oliverwarlick/" target="_blank">LinkedIn & Contact Information</a>
+            <a href="docs/Oliver Warlick Resume.docx" target="_blank">Resume</a>
+            <a href="https://docs.google.com/document/d/1BEw8tKNyBlj72AwCsDIFYCM_SC9vtuU7PmMSYSTDKgA/edit?usp=sharing" target="_blank">Case Study</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </nav>
+     </header>
+     
+   <main class="wrapper">
+        <picture class="profile">
+            <source media="(min-width: 1200px)" srcset="images/desktop.jpg">
+            <source media="(min-width: 501px)" srcset="images/Rock Climbing.png">
+            <img src="images/phone.jpg" alt="That's me!">
+        </picture>   
+       <h2 class="subheader">About Me</h2>
+       
+       <p>Hello and welcome, thank you for being here today! My name is Oliver Warlick.</p>
+       
+       <p>I love software engineering and business development. Currenly I am an intern at Bezos Academy on the engineering team. I am also finishing up a yearlong application development program with the YearUp non-profit organization. </p>
+              
+       <p>My journey as a webdveloper began when I built my first website using GoDaddy.com about 6 years ago; I decided to add some HTML to my website and learned that GoDaddy only allows limited site customization.</p>
+           
+      <p>I wanted more room for creativity with my web design so I switched to WordPress; an open source platform and from there quickly learned just how much there is to learn about web development. YearUp offered the opportunity to learn and earn and has been a great supporter in my career path.</p>
+
+    <p> I am very grateful to all my mentors, techers, coaches, workplace professionals, fellow classmates, friends and family, who have supported me on my path. I feel very fortunate to have the opportunity to advance my career in the tech industry.
+        </p>
+     <footer>
+      <p><small>&copy; 2024-<span id="this-year"></span> by 
+          Oliver Warlick, All Rights Reserved ~ 
+     </p>
+    </footer>
+  </main>
+     
+  <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
+    <script>
+    //https://tinyurl.com/dynamic-html-checker
+    document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
+      
+    document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href); 
+     
+     //set current year in span with id of this-year
+     let d = new Date(); let thisYear = d.getFullYear();
+     document.getElementById("this-year").innerHTML = thisYear;
+    
+    //manages mobile nav 
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }   
+ </script>
+     
+ </body>
+</html>
