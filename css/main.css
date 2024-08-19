@@ -49,6 +49,13 @@ a:hover {
     text-decoration: none;
 }
 
+ol {
+    position: relative;
+    left: 57%;
+    transform: translateX(-50%);
+    text-align: left;
+}
+
 .links {
     color:rgba(0, 139, 139, 0.412);
     font-weight:bold;
@@ -62,6 +69,13 @@ a:hover {
 }
 
 .center-align{
+    text-align: justify;
+}
+
+.spacing{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
     text-align: justify;
 }
 
