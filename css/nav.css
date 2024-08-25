@@ -51,6 +51,12 @@
         right: 0;
         top: 0;
     }
+
+    .topnav a img { /* Target images within anchor tags inside the .topnav */
+        padding: 0;
+        margin: 0;
+        vertical-align: middle;
+    }
 }
 
 

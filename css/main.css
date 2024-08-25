@@ -85,6 +85,30 @@ footer {
     padding: 1em;
 }
 
+.logo {
+    max-height: 18px; /* Adjust as needed to match your nav bar height */
+    width: auto; /* Let the width adjust proportionately */
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.topnav {
+    display: flex; /* Enable flexbox for the navigation bar */
+    justify-content: space-between; /* Distribute space between items, pushing the last one to the right */
+}
+
+.topnav a:last-child { /* Target the last anchor tag (LinkedIn button) */
+    margin-left: auto; /* Push it to the right with automatic margin on the left */
+}
+
+/* : for responsiveness */
+@media (max-width: 768px) { 
+    .logo {
+        max-height: 20px; /* Makes the logo smaller on smaller screens */
+    }
+}
+
 /* Responsive rules */
 
 /* DESKTOP */
