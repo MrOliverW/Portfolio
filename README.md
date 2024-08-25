@@ -37,7 +37,7 @@ Update Bio on index.html page to talk about Weekend web work.
 
     Change Case Study page to a .html (like you did with projects) 
 
-    Add a calendely Link.
+    Add a calendely Link. add as an .hmtl page 
 
 
 
