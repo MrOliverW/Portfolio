@@ -1,10 +1,10 @@
 # Portfolio README
 Welcome to Oliver Warlick's Professional Portfolio
 
-This is a live portfolio which updates in progression with my career advancement (so stay tuned!).
+This is a live portfolio which updates in progression with OW's career advancement (so stay tuned!).
 
-As of the current version, here are some updates:
-Temporarily removing the Contact and Linkedin Page (see below for me)
+As of the current version, here are some features in progress:
+Temporarily removing the Contact and Linkedin Page (see below for more)
 
 Enhancing the navigation (also called "nav") bar: 
 -BIG: Removing creation of new tab each time a user clicks a button.
@@ -21,10 +21,12 @@ Update Bio on index.html page to talk about Weekend web work.
      Selectors Project
      Remve explore oregon 
 
-- Adding a cool LinkedIn button which linked to my LinkedIn (said link 3 times there)
+-FINISHED: Adding a cool LinkedIn button which linked to my LinkedIn (said link 3 times there) - FINISHED
+
 - Changing the nav buttons as follows:
     Changing "LinkedIn & Contact button to just "Contact" button (or maybe contact me or get in touch) 
     Adding a .html page for the Contact page
+        Contact Page has Email, link to download reusme (as pdf only, how do employer prfer to get it), likn to GitHub, Link to LInkedIn
 
     Changing the GitHub Button to a logo (similar to LinkedIn);
         possibly listing the Full GitHub logo or may be reducing the Linkein logo so they are both similar size
